@@ -1,6 +1,6 @@
 {
   "name": "pi-block-syntax-colors",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Multi-color blocks for Pi: syntax-highlighted shell/tool call lines, fenced tool output, and thinking text.",
   "keywords": [
     "pi-package",

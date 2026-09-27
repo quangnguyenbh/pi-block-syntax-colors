@@ -34,7 +34,7 @@ After installing, the same line renders like this (colors are your theme's `synt
 From a Git source (recommended — pins to a tag or commit):
 
 ```bash
-pi install git:github.com/quangnguyenbh/pi-block-syntax-colors@v1.0.0
+pi install git:github.com/quangnguyenbh/pi-block-syntax-colors@v1.0.2
 ```
 
 From a local checkout:
@@ -48,6 +48,8 @@ Try it for one run without touching your settings:
 ```bash
 pi -e git:github.com/quangnguyenbh/pi-block-syntax-colors
 ```
+
+> Run `-e` only while the package is **not** installed. Pi identifies a git package by repository URL without the ref, so an installed `@vX.Y.Z` and an unpinned `-e` clone are two identities that each register the same tools — Pi then reports `Tool "read" conflicts with …` and loads neither. `pi remove` first.
 
 Then **`/reload`** or restart Pi. Pi loads extensions at startup, so a running session will not pick up a new package until it reloads.
 
