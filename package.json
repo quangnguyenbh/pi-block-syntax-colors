@@ -1,0 +1,38 @@
+{
+  "name": "pi-block-syntax-colors",
+  "version": "1.0.0",
+  "description": "Multi-color blocks for Pi: syntax-highlighted shell/tool call lines, fenced tool output, and thinking text.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi",
+    "syntax-highlighting",
+    "tui",
+    "colors",
+    "theme"
+  ],
+  "license": "MIT",
+  "author": "Quang Nguyen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quangnguyenbh/pi-block-syntax-colors.git"
+  },
+  "homepage": "https://github.com/quangnguyenbh/pi-block-syntax-colors#readme",
+  "bugs": {
+    "url": "https://github.com/quangnguyenbh/pi-block-syntax-colors/issues"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/block-syntax-colors.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ]
+}
